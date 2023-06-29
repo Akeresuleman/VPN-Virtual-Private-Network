@@ -41,7 +41,7 @@ This is a picture of my freshly created vitual machine called "vmostickets" usin
 <br />
 
 <p>
-<img src="https://imgur.com/OWxrsfJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/7ICu6oJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After signing in my vmostickets using a RD, I installed and enabled IIS in windows with CGI, IIS management console and HTTP features as seen on the picture
@@ -49,9 +49,9 @@ After signing in my vmostickets using a RD, I installed and enabled IIS in windo
 <br />
 
 <p>
-<img src="https://imgur.com/ar7z6cK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/1DZQZW1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Dowloaded and installed prerequisite files that will be needed to install osTicket. After installing all the files I then downloaded and extract osTicket
+Dowloaded and installed prerequisite files that will be needed to install osTicket. Created a PHP folder on local disk C where I unzipped "Php7.3 .8" content in to it. After installing all the files I then downloaded and extracted osTicket
 </p>
 <br />
