@@ -1,20 +1,20 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://cdn.vectorstock.com/i/preview-1x/55/49/internet-vpn-shield-icon-vector-47035549.webp.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>VPN Setup and Utilization</h1>
+This project is to show how to setup a vpn inside a virtual machine and use it to remotely change our geographic location.<br />
 
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- ### [YouTube: How To Use VPN](https://youtu.be/6J7ASqxDAZs)
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
-- Internet Information Services (IIS)
+- VPN provider(Proton VPN)
 
 <h2>Operating Systems Used </h2>
 
@@ -22,38 +22,41 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Installed / Enabled IIS in Windows WITH CGI and Common HTTP Features AND IIS Management Console
-- Download and install PHP Manager for IIS 
-- Download and install the Rewrite Module
-- Create a PHP Directory and download PHP 7.3.8 and unzip the contents into the PHP directory
-- Download and install VC_redist.x86.exe
-- Download and install MySQL 5.5.62
-- Download and extract and configure osTicket
-- Download and install HeidiSQL
-
-<h2>Installation Steps</h2>
+- Setup a virtual machine running windows 10 os and name in VM1
+- Take Note of the location of the Virtual machine
+- Login VM1 using remote destop on my local computer
+- Setup a vpn traffic tunnel using proton vpn and connect it to different locations
 
 <p>
-<img src="https://imgur.com/D4PqdIy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+<img src="https://imgur.com/kYpXSjF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This is a picture of my freshly created vitual machine called "vmostickets" using microsoft Azure. I will then connect the virtual machine to a remote destop where I will be doing the post installations and setting up osTicket.
+The image above show a validation page of the virtual machine(VM1) I created running windows 10 and West US 3 as the location of the virtual machine.
+I then login to the vm using the remote desktop application on my local computer. 
 </p>
 <br />
 
+
 <p>
-<img src="https://imgur.com/7ICu6oJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/RzuSoCO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/xwvvE1P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/
 </p>
 <p>
-After signing in my vmostickets using a RD, I installed and enabled IIS in windows with CGI, IIS management console and HTTP features as seen on the picture
+After login in to the vm successfully using the RD,I verified the geographical location associated with the IP address of my vm inside RD VM and later verified that of my local computer as well on the local computer it self by using the website "whatismyip.com". The geographical location of my VM shows that I am in Arizona United States while that of my local computer is Lodon United Kingdom since that's my present location as shown on the two images above
 </p>
 <br />
 
+
 <p>
-<img src="https://imgur.com/1DZQZW1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Ejotenn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+<img src="https://imgur.com/GgtwCAr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://imgur.com/tHwIyqf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Dowloaded and installed prerequisite files that will be needed to install osTicket. Created a PHP folder on local disk C where I unzipped "Php7.3 .8" content in to it. I Open IIS as an Admin and register PHP from within IIS, Installed and setup osTicket v1.15.8.
-
+Setup a VPN traffic tunnel using proton vpn. downloaded, installed and setup Proton vpn and connected to different location, that is Japan and Netherlands respectively and and also verify their geographical location using "whatismyip.com" and noticed they all reflect to the location to which the proton vpn was connected.
+Therefore VPN can be used to by pass geographical restrictions and also enable remote access to private networks. The images above shows the geographic location of the vm when the proton vpn is connected to Japan and Netherland
 </p>
 <br />
